@@ -1,6 +1,6 @@
 # Consumo energético de edificios municipales de Madrid
 
-**Fuente:** [Portal de datos abiertos del Ayuntamiento de Madrid](https://datos.madrid.es/). Consumo mensual por sensor en los edificios municipales monitorizados desde 2020 (unas 27.000 lecturas y 20 columnas).
+**Fuente:** [Portal de datos abiertos del Ayuntamiento de Madrid](https://datos.madrid.es/), conjunto "Consumo de energía en edificios municipales. Datos mensuales". El CSV se incluye en la carpeta (`consumo_energia_edificios.csv`) porque el portal cambia la dirección del archivo. Consumo mensual por sensor en los edificios municipales monitorizados desde 2020 (unas 27.000 lecturas y 20 columnas).
 
 ## Pasos
 1. Se filtran las lecturas eléctricas (`kWh`) por año y distrito.
