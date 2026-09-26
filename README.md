@@ -6,7 +6,7 @@ Trabajos de análisis de datos del **Máster en Business Analytics & IA (INESDI,
 
 | # | Proyecto | Qué demuestra | Stack |
 |---|---|---|---|
-| 01 | [Consumo energético de edificios municipales de Madrid](01-consumo-energetico-madrid/) | Limpieza de datos abiertos reales (unas 27.000 lecturas), normalización z-score por distrito y año, y clasificación de eficiencia por percentiles | pandas, matplotlib |
+| 01 | [Consumo energético de edificios municipales de Madrid](01-consumo-energetico-madrid/) | Limpieza de datos abiertos reales (35.000 lecturas), normalización z-score por distrito y año, y clasificación de eficiencia por percentiles | pandas, matplotlib |
 | 02 | [ETL a un data warehouse en PostgreSQL](02-etl-data-warehouse/) | De JSON a la tabla de hechos: nulos con códigos indeterminados, **integridad referencial** contra las dimensiones y verificación de la carga | pandas, SQLAlchemy, PostgreSQL |
 | 03 | [SQL sobre Northwind](03-sql-northwind/) | Consultas básicas, `JOIN`, agregaciones, `CASE`, subconsultas, CTE y **funciones de ventana** | PostgreSQL |
 
@@ -18,7 +18,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
-- **01** descarga el CSV directamente del portal de datos abiertos del Ayuntamiento de Madrid.
+- **01** incluye el CSV de datos abiertos del Ayuntamiento de Madrid. Si lo borras, lo descarga del portal.
 - **02** necesita una base PostgreSQL con el esquema `dw_aero`, que no se incluye. Las credenciales se leen de las variables de entorno `PGUSER`, `PGPASSWORD`, `PGHOST`, `PGPORT` y `PGDATABASE`.
 - **03** usa la base de ejemplo Northwind en PostgreSQL.
 
