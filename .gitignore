@@ -1,0 +1,8 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+# Salidas generadas al ejecutar los notebooks
+*_procesado.csv
+ficheros/
